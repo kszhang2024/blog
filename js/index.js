@@ -9,7 +9,7 @@ $("#login-button").click(function (event) {
   const userName = document.getElementById("userName").value;
   const pwd = document.getElementById("pwd").value;
   errCount++;
-  if (userName == "王芊芊" && pwd == "0418" || errCount === 5) {
+  if (userName == "芊芊" && pwd == "0418" || errCount === 5) {
     if (errCount === 5) {
       alert("算了, 不为难你了！");
     }
